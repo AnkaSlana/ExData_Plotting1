@@ -1,4 +1,5 @@
 # PLOT 2
+# household_power_consumption.txt should be put in the same folder as the code
 
 data <- read.table("household_power_consumption.txt", sep=";", header = TRUE, dec=".", na.string="?")
 data <- subset(data, Date=="1/2/2007" | Date=="2/2/2007")
